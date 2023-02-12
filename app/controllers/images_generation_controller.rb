@@ -1,0 +1,3 @@
+class ImagesGenerationController < ApplicationController
+
+end
