@@ -1,0 +1,17 @@
+<section>
+  <div class="container">
+    <div class="row justify-content-center mt-5 mb-5">
+      <span style="font-size: 30px"><strong>Prompt:</strong> <%= @prompt.prompt %></span> <br>
+      <span style="font-size: 30px"><strong>Number of images:</strong> <%= @prompt.number_images %></span> <br>
+      <span style="font-size: 30px"><strong>Size:</strong> <%= @prompt.size %></span> <br>
+      <div class="mt-5 mb-5">
+        <% @prompt.outputs.each do |image| %>
+          <%= image_tag image.url, class: "img-thumbnail" %>
+        <% end %>
+      </div>
+      <div>
+        <%= link_to 'Back', :back, class: "btn btn-primary" %>
+      </div>
+    </div>
+  </div>
+</section>
