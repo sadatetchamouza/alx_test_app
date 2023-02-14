@@ -5,6 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
+# Clone the project
+
+- Run: `git clone git@github.com:sadatetchamouza/alx_test_app.git`
+
+# Download and install Docker
+
+- Visit: `https://www.docker.com/` to download and install Docker
+
 # Docker environment
 
 - Ruby version : v2.7
