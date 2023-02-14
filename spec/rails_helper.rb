@@ -6,6 +6,7 @@ require_relative '../config/environment'
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 require 'database_cleaner'
+require 'webmock/rspec'
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -74,5 +75,22 @@ RSpec.configure do |config|
     DatabaseCleaner.cleaning do
       example.run
     end
+  end
+
+  config.before :each do
+    images = {
+      created: 1676326332,
+      data: [
+        {
+          "url": Faker::LoremFlickr.image
+        },
+        {
+          "url": Faker::LoremFlickr.image
+        }
+      ]
+    }
+
+    stub_request(:post, "https://api.openai.com/v1/images/generations").
+      to_return(status: 200, body: images.to_json, headers: {})
   end
 end

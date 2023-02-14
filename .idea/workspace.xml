@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e2cd55a-e89d-4e0d-bd4d-75ee315ce7c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/image_generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/image_generator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Ruby File" />
         <option value="Ruby Class" />
+        <option value="ERB File" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -158,6 +158,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3e2cd55a-e89d-4e0d-bd4d-75ee315ce7c4" name="Changes" comment="" />
@@ -167,6 +168,7 @@
       <updated>1676082568746</updated>
       <workItem from="1676082570277" duration="10303000" />
       <workItem from="1676218056218" duration="70000" />
+      <workItem from="1676218145562" duration="21344000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Rspec for testing">
       <created>1676217872887</created>
@@ -175,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676217872887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup Rspec for testing">
+      <created>1676218237597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676218237597</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup Rspec for testing">
+      <created>1676218316983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676218316983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
