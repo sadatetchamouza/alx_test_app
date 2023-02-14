@@ -5,8 +5,12 @@
       <span style="font-size: 30px"><strong>Number of images:</strong> <%= @prompt.number_images %></span> <br>
       <span style="font-size: 30px"><strong>Size:</strong> <%= @prompt.size %></span> <br>
       <div class="mt-5 mb-5">
-        <% @prompt.outputs.each do |image| %>
-          <%= image_tag image.url, class: "img-thumbnail" %>
+        <% if @prompt.outputs.empty? %>
+          <div class="alert alert-info">No images found for your input</div>
+        <% else %>
+          <% @prompt.outputs.each do |image| %>
+            <%= image_tag image.url, class: "img-thumbnail" %>
+          <% end %>
         <% end %>
       </div>
       <div>

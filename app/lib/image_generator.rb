@@ -8,7 +8,7 @@ class ImageGenerator
     http.use_ssl = true
 
     request = Net::HTTP::Post.new(uri)
-    params = { prompt: prompt.prompt, n: prompt.number_images, size: prompt.size }
+    params = { prompt: prompt.prompt, n: prompt.number_images || 1, size: prompt.size }
     request.body = (params.to_json)
     request["Content-Type"] = "application/json"
     request["Authorization"] = "Bearer #{api_key}"

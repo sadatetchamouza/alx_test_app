@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e2cd55a-e89d-4e0d-bd4d-75ee315ce7c4" name="Changes" comment="">
+    <list default="true" id="3e2cd55a-e89d-4e0d-bd4d-75ee315ce7c4" name="Changes" comment="Integrated the open api endpoint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/images_generation_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/images_generation_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/image_generator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/image_generator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/images_generation/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/images_generation/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/images_generation/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/images_generation/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/images_generation_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/images_generation_controller_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/output.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/output.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/prompt.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/prompt.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,7 @@
         <option value="Ruby Class" />
         <option value="ERB File" />
         <option value="Ruby File" />
+        <option value="Liquid File" />
       </list>
     </option>
   </component>
@@ -168,7 +175,8 @@
       <updated>1676082568746</updated>
       <workItem from="1676082570277" duration="10303000" />
       <workItem from="1676218056218" duration="70000" />
-      <workItem from="1676218145562" duration="21344000" />
+      <workItem from="1676218145562" duration="22140000" />
+      <workItem from="1676368523221" duration="7549000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Rspec for testing">
       <created>1676217872887</created>
@@ -191,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676218316983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Integrated the open api endpoint">
+      <created>1676362771056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676362771057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Rspec for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Rspec for testing" />
+    <MESSAGE value="Integrated the open api endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated the open api endpoint" />
   </component>
 </project>
